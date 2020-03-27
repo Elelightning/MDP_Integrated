@@ -18,7 +18,7 @@ pyserial==2.6
 python-apt==0.9.3.13
 python-debian==0.1.27
 pyzmq==19.0.0
-requests==2.4.3
+requests==2.20.0
 sense-hat==2.2.0
 six==1.8.0
 spidev==3.0
