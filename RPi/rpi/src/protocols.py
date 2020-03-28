@@ -46,13 +46,13 @@ class AndroidToRPi:
 
 
 class AlgorithmToAndroid:
+    MOVE_FORWARD = 'W'.encode()[0]
     TURN_LEFT = 'A'.encode()[0]
     TURN_RIGHT = 'D'.encode()[0]
     CALIBRATING_CORNER = 'L'.encode()[0]
     SENSE_ALL = 'Z'.encode()[0]
     ALIGN_RIGHT = 'B'.encode()[0]
     ALIGN_FRONT = 'V'.encode()[0]
-    MOVE_FORWARD = 'W'.encode()[0]
 
     MDF_STRING = 'M'.encode()[0]
 
@@ -76,7 +76,6 @@ class RPiToAndroid:
     STATUS_ALIGN_FRONT = '{"status":"align front"}'.encode()
     
     MOVE_UP = '{"move":[{"direction":"forward"}]}'.encode()
-    MOVE_DOWN = '{"move":[{"direction":"down"}]}'.encode()
     TURN_LEFT = '{"move":[{"direction":"left"}]}'.encode()
     TURN_RIGHT = '{"move":[{"direction":"right"}]}'.encode()
 
