@@ -4,7 +4,7 @@ imagezmq/
 # VS Code
 .vscode
 
-frames/
+# frames/
 **/pthread1
 **/server2
 **/client2
