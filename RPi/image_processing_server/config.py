@@ -15,14 +15,14 @@ IMAGE_HEIGHT = 1080  # 225
 
 DISPLAY_IMAGE_WIDTH = 400
 
-# usually, confidence of > 90%.
-# however, sometimes, confidence score may drop very low.
-# no false positive with confidence higher than 50% though
-# therefore, set confidence score this low
+# red colour symbols tend to have lower confidence scores
 MIN_CONFIDENCE_THRESHOLD = 0.50
 
-# red colour symbols tend to have lower confidence scores
-NON_RED_CONFIDENCE_THRESHOLD = 0.50
+# usually for non-red symbols, confidence of > 90%.
+# however, once in a blue moon, confidence score may drop very low.
+# no false positive with confidence higher than 70% though
+# therefore, set confidence score this low
+NON_RED_CONFIDENCE_THRESHOLD = 0.70
 
 # used for filtering symbols that are 5 grids away
 # sitution: [S]    [ ]  <R
