@@ -19,6 +19,6 @@ Please refer to [image processing server's README](image_processing_server/READM
 
 ## miscellaneous
 
-[wiki](https://blogs.ntu.edu.sg/scemdp-1920s2-g15/wiki/raspberry-pi/)
+[wiki](https://blogs.ntu.edu.sg/scemdp-1920s2-g15/raspberry-pi/)
 
 [Python virtual environment fix](https://github.com/Microsoft/vscode-python/issues/3840#issuecomment-463789294)
